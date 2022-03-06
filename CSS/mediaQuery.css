@@ -1,21 +1,24 @@
 
-@media(max-width: 1299px)
+@media(max-width: 640px)
 {
     #navigationList{
-        visibility: hidden !important;   
+        /* visibility: hidden !important; */
+        display: none;   
+        
     }
     #smallScreenNav{
         visibility: visible;
     }
 }   
 
-@media(min-width: 1300px)
+@media(min-width: 641px)
 {
     #navigationList{
         visibility: visible !important;
     }  
     
     #smallScreenNav{
-        visibility: hidden;
+        /* visibility: hidden; */
+        display: none;   
     }
 }
